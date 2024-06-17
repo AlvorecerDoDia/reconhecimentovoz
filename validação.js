@@ -56,7 +56,7 @@ function diminuirTentativas() {
     if (Tentativas == 5) {
         elementoTentativas.style.color = "red";
     } else if (Tentativas == 0) {
-        document.body.innerHTML = `<<h1>GAME OVER!</h1><br><h3>O número secreto era:  ${numeroSecreto}</h3><br> 
+        document.body.innerHTML = `<h1>GAME OVER!</h1><br><h3>O número secreto era:  ${numeroSecreto}</h3><br> 
         <button id="recomecar">Recomeçar</button>`
     }
     return elementoTentativas.innerHTML = Tentativas
